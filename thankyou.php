@@ -6,9 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>CUET Coaching in Bahadurgarh | Crash Course, CLAT & IPMAT</title>
   <meta name="description"
-    content="Join Career Launcher Bahadurgarh for CUET Crash Course starting March 2026, CUET 1yr/2yr, IPMAT & CLAT coaching. Affordable fees. 99 percentile results. Enroll now!" />
+    content="Join Career Launcher Vikaspuri Bahadurgarh for CUET Crash Course starting March 2026, CUET 1yr/2yr, IPMAT & CLAT coaching. Affordable fees. 99 percentile results. Enroll now!" />
   <meta name="keywords"
-    content="CUET Crash Course Bahadurgarh, CUET Coaching Bahadurgarh, CUET 2026 Bahadurgarh, CUET 1 year course Bahadurgarh, CUET 2 year course Bahadurgarh, IPMAT Coaching Bahadurgarh, CLAT Coaching Bahadurgarh, Career Launcher Bahadurgarh, affordable CUET coaching Haryana, Tuitions 10th, Tuitions 12th, Tuitions 11th" />
+    content="CUET Crash Course Bahadurgarh, CUET Coaching Bahadurgarh, CUET 2026 Bahadurgarh, CUET 1 year course Bahadurgarh, CUET 2 year course Bahadurgarh, IPMAT Coaching Bahadurgarh, CLAT Coaching Bahadurgarh, Career Launcher Vikaspuri Bahadurgarh, affordable CUET coaching Haryana, Tuitions 10th, Tuitions 12th, Tuitions 11th" />
   <!-- URL of the page -->
   <link rel="icon" href="./image/favicon.png" type="image/x-icon" />
 
@@ -36,7 +36,7 @@
   <nav class="navbar navbar-expand-lg sticky-top site-nav" id="nav">
     <div class="container">
       <a class="navbar-brand brand" href="#home">
-        <img src="./image/logo.png" alt="Career Launcher Logo" class="logo" />
+        <img src="./image/logo.png" alt="Career Launcher Vikaspuri Logo" class="logo" />
       </a>
       <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
         aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
@@ -151,7 +151,7 @@
       <div class="row g-4">
         <div class="col-lg-4">
           <a class="brand mb-3 d-inline-flex" href="#home">
-            <img src="./image/logo.png" alt="Career Launcher Logo" class="logo w-50 bg-white p-3 rounded-3" />
+            <img src="./image/logo.png" alt="Career Launcher Vikaspuri Logo" class="logo w-50 bg-white p-3 rounded-3" />
           </a>
           <p>
             Focused entrance exam preparation for Law, Central University and
@@ -209,7 +209,7 @@
         </div>
       </div>
       <div class="copy">
-        © 2026 Career Launcher. All Rights Reserved. | Developed by <a href="https://hoverbusinessservices.com/"
+        © 2026 Career Launcher Vikaspuri. All Rights Reserved. | Developed by <a href="https://hoverbusinessservices.com/"
           target="_blank" rel="noopener noreferrer"><strong>Hover Business Services LLP.</strong></a>
       </div>
     </div>

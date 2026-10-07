@@ -1,4 +1,4 @@
-/* Career Launcher – interactions + enquiry forms */
+/* Career Launcher Vikaspuri – interactions + enquiry forms */
 /* Vanilla JS */
 
 (function () {
@@ -351,6 +351,8 @@
     "NIFT Entrance": ["NIFT"],
 
     "IP-CET": ["IP-CET"],
+
+    "11th & 12th Tuitions": ["Class 11 Tuition", "Class 12 Tuition"],
 
     "Other Entrance": ["Other"],
   };

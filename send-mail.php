@@ -97,11 +97,11 @@ try {
     $mail->Port = 587;
     $mail->setFrom(
         'hostinghbs@gmail.com',
-        'Career Launcher Website'
+        'Career Launcher Vikaspuri Website'
     );
     $mail->addAddress(
         'del.vikaspuri@careerlauncher.com',
-        'Career Launcher'
+        'Career Launcher Vikaspuri'
     );
 
     if ($email !== '') {
@@ -113,7 +113,7 @@ try {
     }
 
     $mail->isHTML(true);
-    $mail->Subject = 'New Enquiry - Career Launcher Website';
+    $mail->Subject = 'New Enquiry - Career Launcher Vikaspuri Website';
     $displayEmail = $email !== ''
         ? $email
         : 'Not provided';
@@ -147,7 +147,7 @@ try {
                 margin:8px 0 0;
                 opacity:.85;
             ">
-                Career Launcher
+                Career Launcher Vikaspuri
             </p>
         </div>
         <div style="
@@ -272,7 +272,7 @@ try {
                 color:#6b7280;
                 font-size:13px;
             ">
-                This enquiry was submitted from the Career Launcher website.
+                This enquiry was submitted from the Career Launcher Vikaspuri website.
             </p>
 
         </div>
@@ -282,7 +282,7 @@ try {
     ';
 
     $mail->AltBody =
-        "New Career Launcher Website Enquiry\n\n" .
+        "New Career Launcher Vikaspuri Website Enquiry\n\n" .
         "Name: {$name}\n" .
         "Mobile: {$mobile}\n" .
         "Email: {$displayEmail}\n" .
