@@ -3,7 +3,8 @@ $pageTitle = 'Contact Us | Career Launcher Vikaspuri';
 $pageDesc  = 'Contact Career Launcher Vikaspuri – call, WhatsApp, email or visit us near Vikaspuri Metro Gate No. 1. Book a free counselling session.';
 $pageHeading = 'Contact Us';
 $pageLead = 'Talk to a counsellor, visit the centre, or send an enquiry. We reply quickly.';
-$address = 'Metro Gate No. 1, 2nd Floor, B-57, New Krishna Vihar, Vikaspuri, near West, Janakpuri, New Delhi, Delhi 110018';
+$address = '2nd floor , b-57 new Krishna vihar , vikaspuri.
+                                Near West janakpuri metro gate no 1 ,New Delhi, Delhi 110018';
 ob_start();
 include 'include/page-banner.php';
 ?>

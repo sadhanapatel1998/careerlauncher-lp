@@ -163,7 +163,7 @@ img {
 }
 
 .site-nav.scrolled {
-  padding: .4rem 0;
+  padding: 0rem 0;
   box-shadow: 0 6px 24px rgba(16, 42, 86, .14)
 }
 
@@ -1734,7 +1734,7 @@ blockquote {
 }
 
 .accordion-body {
-  padding: 0 1.4rem 1.4rem 4.3rem;
+  padding: 15px 1.4rem 1.4rem 2.3rem;
   color: #5b6577
 }
 
@@ -1765,6 +1765,9 @@ blockquote {
   .rc-top {
     display: block;
   }
+  .navbar-brand .logo {
+    width: 140px;
+}
 }
 
 /* ===== v3: static hero – background image + enquiry form ===== */

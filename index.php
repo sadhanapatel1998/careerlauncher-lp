@@ -1,5 +1,6 @@
         <?php
         ob_start();
+        include 'include/faculty.php';
         ?>
 
         <!-- 3. HERO: single background image + enquiry form -->
@@ -595,7 +596,7 @@
         <section id="results" class="section dark">
             <div class="container">
                 <div class="sec-head light wow fadeInUp">
-                    <h2>Meet our Team.</h2>
+                    <h2>Meet Our Expert Faculty.</h2>
                     <p>
                         Meet our experienced faculty and mentors dedicated to guiding
                         students towards academic excellence and success.
@@ -604,344 +605,41 @@
                 <div class="wow fadeInUp">
                     <div class="xs" id="resSlider" data-desktop="4">
                         <div class="xs-viewport">
-                            <div class="xs-track">
+                            <div class="xs-viewport">
+                                <div class="xs-track">
 
-                                <!-- New Team  Members Start-->
-                                <!-- MOHIT SIR -->
-                                <div class="xs-item">
-                                    <article class="rc">
-                                        <div class="rc-top">
-                                            <div class="avatar">
-                                                <img src="image/team/mohit.png" alt="Mohit Sir" />
-                                            </div>
+                                    <?php foreach ($faculty as $member): ?>
+
+                                        <div class="xs-item">
+                                            <article class="rc">
+
+                                                <div class="rc-top">
+                                                    <div class="avatar">
+                                                        <img
+                                                            src="<?= htmlspecialchars($member['image']) ?>"
+                                                            alt="<?= htmlspecialchars($member['alt']) ?>" />
+                                                    </div>
+                                                </div>
+
+                                                <h4 class="pb-2">
+                                                    <?= htmlspecialchars($member['name']) ?>
+                                                </h4>
+
+                                                <p class="rank">
+                                                    <i class="bi <?= htmlspecialchars($member['icon']) ?> me-1"></i>
+                                                    <?= htmlspecialchars($member['position']) ?>
+                                                </p>
+
+                                                <blockquote>
+                                                    "<?= htmlspecialchars($member['description']) ?>"
+                                                </blockquote>
+
+                                            </article>
                                         </div>
 
-                                        <h4 class="pb-2">Mohit Sir</h4>
+                                    <?php endforeach; ?>
 
-                                        <p class="rank">
-                                            <i class="bi bi-lightbulb-fill me-1"></i>
-                                            Reasoning Faculty
-                                        </p>
-
-                                        <blockquote>
-                                            "Delhi University alumnus with 11+ years of experience teaching
-                                            Reasoning for CLAT, CUET, SSC, SSC CGL and other competitive exams."
-                                        </blockquote>
-                                    </article>
                                 </div>
-
-
-                                <!-- P. PRAJAPATI -->
-                                <div class="xs-item">
-                                    <article class="rc">
-                                        <div class="rc-top">
-                                            <div class="avatar">
-                                                <img src="image/team/p-prajapati.png" alt="P. Prajapati" />
-                                            </div>
-                                        </div>
-
-                                        <h4 class="pb-2">P. Prajapati</h4>
-
-                                        <p class="rank">
-                                            <i class="bi bi-lightning-charge-fill me-1"></i>
-                                            Faculty
-                                        </p>
-
-                                        <blockquote>
-                                            "An experienced educator with 10+ years of teaching experience
-                                            and a qualification in Electrical Engineering."
-                                        </blockquote>
-                                    </article>
-                                </div>
-
-
-                                <!-- DR. PURAN SINGH -->
-                                <div class="xs-item">
-                                    <article class="rc">
-                                        <div class="rc-top">
-                                            <div class="avatar">
-                                                <img src="image/team/dr-puran-singh.png" alt="Dr. Puran Singh" />
-                                            </div>
-                                        </div>
-
-                                        <h4 class="pb-2">Dr. Puran Singh</h4>
-
-                                        <p class="rank">
-                                            <i class="bi bi-person-badge-fill me-1"></i>
-                                            Centre Head
-                                        </p>
-
-                                        <blockquote>
-                                            "15+ years of experience in teaching and academic guidance.
-                                            Former Faculty at Amity University in Mechanical Engineering."
-                                        </blockquote>
-                                    </article>
-                                </div>
-
-
-                                <!-- Shivam kohli -->
-                                <div class="xs-item">
-                                    <article class="rc">
-                                        <div class="rc-top">
-                                            <div class="avatar">
-                                                <img src="image/team/shivam-kohli.png" alt="Shivam Kohli" />
-                                            </div>
-                                        </div>
-
-                                        <h4 class="pb-2">Shivam Kohli</h4>
-
-                                        <p class="rank">
-                                            <i class="bi bi-briefcase-fill me-1"></i>
-                                            Centre Manager & Senior Career Counsellor
-                                        </p>
-
-                                        <blockquote>
-                                            "Delhi University alumnus with an M.A. and LL.B., 10+ years of
-                                            teaching experience and expertise in Legal Aptitude and career guidance."
-                                        </blockquote>
-                                    </article>
-                                </div>
-
-
-                                <!-- YASHVIR SAR -->
-                                <div class="xs-item">
-                                    <article class="rc">
-                                        <div class="rc-top">
-                                            <div class="avatar">
-                                                <img src="image/team/yashvir-sar.png" alt="Yashvir Sar" />
-                                            </div>
-                                        </div>
-
-                                        <h4 class="pb-2">Yashvir Sar</h4>
-
-                                        <p class="rank">
-                                            <i class="bi bi-book-fill me-1"></i>
-                                            Verbal Ability & English Faculty
-                                        </p>
-
-                                        <blockquote>
-                                            "15+ years of teaching experience in Verbal Ability and English for
-                                            CAT, CLAT, CUET, SSC, Banking, NDA and CDS. Taught at multiple
-                                            educational institutions and mentored 20+ successful selections
-                                            in government competitive examinations. B.Com from Delhi University
-                                            and M.A. in English from JNU."
-                                        </blockquote>
-                                    </article>
-                                </div>
-
-
-                                <!-- ANKIT KUMAR MISHRA -->
-                                <div class="xs-item">
-                                    <article class="rc">
-                                        <div class="rc-top">
-                                            <div class="avatar">
-                                                <img src="image/team/ankit-kumar-mishra.png" alt="Ankit Kumar Mishra" />
-                                            </div>
-                                        </div>
-
-                                        <h4 class="pb-2">Ankit Kumar Mishra</h4>
-
-                                        <p class="rank">
-                                            <i class="bi bi-globe2 me-1"></i>
-                                            General Awareness & General Knowledge Faculty
-                                        </p>
-
-                                        <blockquote>
-                                            "11+ years of teaching experience in General Awareness and General
-                                            Knowledge for CLAT, CUET, NDA, CDS and government competitive exams.
-                                            B.Sc. in Life Sciences from Delhi University and M.Sc. in Zoology
-                                            from DU. Qualified UPSC Mains twice and appeared for the UPSC interview
-                                            once."
-                                        </blockquote>
-                                    </article>
-                                </div>
-
-                                <!-- New Team  Members End-->
-                                <!-- VANDANA RATHEE -->
-                                <div class="xs-item">
-                                    <article class="rc">
-                                        <div class="rc-top">
-                                            <div class="avatar">
-                                                <img src="image/team/vandana.png" alt="Vandana Rathee" />
-                                            </div>
-                                        </div>
-
-                                        <h4 class="pb-2">Vandana Rathee</h4>
-
-                                        <p class="rank">
-                                            <i class="bi bi-person-badge-fill me-1"></i>
-                                            Center Director
-                                        </p>
-
-                                        <blockquote>
-                                            "25+ years of experience in teaching, mentoring and
-                                            guiding students towards academic success."
-                                        </blockquote>
-                                    </article>
-                                </div>
-
-                                <!-- VANI RATHEE -->
-                                <div class="xs-item">
-                                    <article class="rc">
-                                        <div class="rc-top">
-                                            <div class="avatar">
-                                                <img src="image/team/vani.png" alt="Vani Rathee" />
-                                            </div>
-                                        </div>
-
-                                        <h4 class="pb-2">Vani Rathee</h4>
-
-                                        <p class="rank">
-                                            <i class="bi bi-megaphone-fill me-1"></i>
-                                            Marketing Head
-                                        </p>
-
-                                        <blockquote>
-                                            "Driving creative campaigns, student engagement and
-                                            impactful initiatives behind the scenes."
-                                        </blockquote>
-                                    </article>
-                                </div>
-
-                                <!-- MAYANK -->
-                                <div class="xs-item">
-                                    <article class="rc">
-                                        <div class="rc-top">
-                                            <div class="avatar">
-                                                <img src="image/team/mayank.png" alt="Mayank" />
-                                            </div>
-                                        </div>
-
-                                        <h4 class="pb-2">Mayank</h4>
-
-                                        <p class="rank">
-                                            <i class="bi bi-laptop-fill me-1"></i>
-                                            Technical & Administrative Coordinator
-                                        </p>
-
-                                        <blockquote>
-                                            "Managing technology, data and operations to create a
-                                            smooth experience for students and staff."
-                                        </blockquote>
-                                    </article>
-                                </div>
-
-                                <!-- AADITYA -->
-                                <div class="xs-item">
-                                    <article class="rc">
-                                        <div class="rc-top">
-                                            <div class="avatar">
-                                                <img src="image/team/aditya.png" alt="Aaditya" />
-                                            </div>
-                                        </div>
-
-                                        <h4 class="pb-2">Aaditya</h4>
-
-                                        <p class="rank">
-                                            <i class="bi bi-calculator-fill me-1"></i>
-                                            Higher Maths Faculty
-                                        </p>
-
-                                        <blockquote>
-                                            "Making Mathematics simple, engaging and exam-focused
-                                            through practical concepts and strategies."
-                                        </blockquote>
-                                    </article>
-                                </div>
-
-                                <!-- HARSHIT -->
-                                <div class="xs-item">
-                                    <article class="rc">
-                                        <div class="rc-top">
-                                            <div class="avatar">
-                                                <img src="image/team/harshit.png" alt="Harshit" />
-                                            </div>
-                                        </div>
-
-                                        <h4 class="pb-2">Harshit</h4>
-
-                                        <p class="rank">
-                                            <i class="bi bi-lightbulb-fill me-1"></i>
-                                            Higher Science Faculty
-                                        </p>
-
-                                        <blockquote>
-                                            "Bringing Physics to life through clear concepts,
-                                            real-world examples and engaging teaching."
-                                        </blockquote>
-                                    </article>
-                                </div>
-
-                                <!-- POOJA RATHEE -->
-                                <div class="xs-item">
-                                    <article class="rc">
-                                        <div class="rc-top">
-                                            <div class="avatar">
-                                                <img src="image/team/pooja.png" alt="Pooja Rathee" />
-                                            </div>
-                                        </div>
-
-                                        <h4 class="pb-2">Pooja Rathee</h4>
-
-                                        <p class="rank">
-                                            <i class="bi bi-puzzle-fill me-1"></i>
-                                            Logical Reasoning Faculty
-                                        </p>
-
-                                        <blockquote>
-                                            "Building analytical thinking, logical clarity and
-                                            exam-oriented problem-solving skills."
-                                        </blockquote>
-                                    </article>
-                                </div>
-
-                                <!-- VIKRAM SEHRAWAT -->
-                                <div class="xs-item">
-                                    <article class="rc">
-                                        <div class="rc-top">
-                                            <div class="avatar">
-                                                <img src="image/team/vikram.png" alt="Vikram Sehrawat" />
-                                            </div>
-                                        </div>
-
-                                        <h4 class="pb-2">Vikram Sehrawat</h4>
-
-                                        <p class="rank">
-                                            <i class="bi bi-globe2 me-1"></i>
-                                            GK & GS Faculty
-                                        </p>
-
-                                        <blockquote>
-                                            "Simplifying General Knowledge and General Studies with
-                                            structured, disciplined preparation."
-                                        </blockquote>
-                                    </article>
-                                </div>
-
-                                <!-- VINAY VERMA -->
-                                <div class="xs-item">
-                                    <article class="rc">
-                                        <div class="rc-top">
-                                            <div class="avatar">
-                                                <img src="image/team/vinay.png" alt="Vinay Verma" />
-                                            </div>
-                                        </div>
-
-                                        <h4 class="pb-2">Vinay Verma</h4>
-
-                                        <p class="rank">
-                                            <i class="bi bi-calculator-fill me-1"></i>
-                                            Mathematics Faculty
-                                        </p>
-
-                                        <blockquote>
-                                            "Helping students master Mathematics with smart
-                                            techniques, speed, accuracy and confidence."
-                                        </blockquote>
-                                    </article>
-                                </div>
-
-
                             </div>
                         </div>
                         <div class="xs-controls">

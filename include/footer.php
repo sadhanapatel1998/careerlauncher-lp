@@ -68,9 +68,8 @@
                         </li>
                         <li>
                             <a href="https://maps.app.goo.gl/vPq4g9h7PuWi8vj88" target="_blank" rel="noopener"
-                                class="text-break"><i class="bi bi-map me-2"></i>metro gate no 1, 2nd floor , B-57 , new
-                                krishna vihar , Vikaspuri, near
-                                west, Janakpuri, New Delhi, Delhi 110018</a>
+                                class="text-break"><i class="bi bi-map me-2"></i>2nd floor , b-57 new Krishna vihar , vikaspuri.
+                                Near West janakpuri metro gate no 1 ,New Delhi, Delhi 110018</a>
                         </li>
                     </ul>
                 </div>
