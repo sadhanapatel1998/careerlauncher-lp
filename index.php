@@ -857,7 +857,7 @@
         </section>
 
         <!-- 11. COUNSELLING CTA -->
-        <section class="cta-band py-4">
+        <section class="cta-band">
             <span class="circle c1"></span><span class="circle c2"></span>
             <div class="container text-center position-relative wow zoomIn">
                 <h2>Not Sure Which Entrance Exam Is Right For You?</h2>
